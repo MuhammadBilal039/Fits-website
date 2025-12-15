@@ -266,61 +266,6 @@ body {
   letter-spacing: 0.2px;
 }
 
-.impact-section {
-  width: 100%;
-  height: 50vh;
-  padding: 80px 100px;
-  color: var(--bg-color);
-  display: flex;
-  gap: 10px;
-  background-color: var(--impact-bg-color);
-}
-
-.impact-section .left {
-  width: 50%;
-}
-
-.left h4 {
-  font-size: 40px;
-  margin-bottom: 24px;
-}
-
-.left p {
-  width: 368px;
-  font-size: 16px;
-  line-height: 20px;
-  word-spacing: 1px;
-}
-
-.impact-section .right {
-  width: 50%;
-}
-
-.right ul {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.right ul li {
-  width: 309px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.right ul li span {
-  font-size: 50px;
-  font-weight: bold;
-}
-
-.right ul li span.content {
-  font-size: 14px;
-  padding-left: 20px;
-  display: inline-block;
-  width: 50px;
-}
-
 .portfolio-section {
   width: 100%;
   height: 210vh;
