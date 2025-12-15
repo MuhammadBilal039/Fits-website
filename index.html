@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fits Digital</title>
+    <link
+      rel="shortcut icon"
+      href="./Images/orange_fits.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <nav id="top" class="navbar">
+      <div class="logo">
+        <a href="#">
+          <img src="./Images/orange_fits.png" alt="" />
+        </a>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="./pages/about.html">About Us</a></li>
+
+        <li class="dropdown">
+          <a href="#" id="servicesBtn"
+            >Services <i class="fa-solid fa-caret-down"></i
+          ></a>
+        </li>
+
+        <li><a href="./pages/portfolio.html">Products & Portfolio</a></li>
+      </ul>
+
+      <a href="./pages/contact.html" class="contact-btn">Contact</a>
+
+      <div class="mobile-menu" id="mobileMenuBtn">☰</div>
+    </nav>
+
+    <!-- ================= MEGA DROPDOWN ================= -->
+    <div class="services-dropdown" id="servicesDropdown">
+      <div class="services-container">
+        <!-- COLUMN 1 -->
+        <div class="service-column">
+          <h3>Telecom Mobility</h3>
+
+          <div class="item">
+            <span>📱</span>
+            <div>
+              <h4>Value Added Services</h4>
+              <p>Enhancing user experience</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <span>🗂️</span>
+            <div>
+              <h4>Subscriber Data Management (SDM)</h4>
+              <p>Managing user profiles efficiently</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <span>☁️</span>
+            <div>
+              <h4>Cloud Communication Services</h4>
+              <p>Cloud collaboration technology</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <span>🌐</span>
+            <div>
+              <h4>Network Infrastructure</h4>
+              <p>Reliable scalable network systems</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <span>🛠️</span>
+            <div>
+              <h4>OSS/BSS Solutions</h4>
+              <p>Optimizing business functions</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUMN 2 -->
+        <div class="service-column">
+          <h3>Digital Evolution</h3>
+
+          <div class="item">
+            <span>💻</span>
+            <div>
+              <h4>Custom Software Development</h4>
+              <p>Tailored for your needs</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <span>📺</span>
+            <div>
+              <h4>Live TV & OTT Platforms</h4>
+              <p>Optimizing streaming ecosystem</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <span>📱</span>
+            <div>
+              <h4>Mobile App/Web Development</h4>
+              <p>Modern UI/UX development</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUMN 3 -->
+        <div class="service-column">
+          <h3>Innovative Technology</h3>
+
+          <div class="item">
+            <span>🕸️</span>
+            <div>
+              <h4>Blockchain & Metaverse</h4>
+              <p>Secure futuristic solutions</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <span>🤖</span>
+            <div>
+              <h4>AI Powered Solutions</h4>
+              <p>Intelligent business automation</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <span>🔒</span>
+            <div>
+              <h4>Security Services</h4>
+              <p>Protecting data & apps</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <span>🏥</span>
+            <div>
+              <h4>mHealth Services</h4>
+              <p>Telemedicine access</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <span>📊</span>
+            <div>
+              <h4>MIS Solutions</h4>
+              <p>Smart analytics operations</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUMN 4 -->
+        <div class="service-column">
+          <h3>Media Services</h3>
+
+          <div class="item">
+            <span>📝</span>
+            <div>
+              <h4>Content Production</h4>
+              <p>Cloud-based media creation</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <span>📢</span>
+            <div>
+              <h4>Advertisement Solutions</h4>
+              <p>Business-focused ads</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <span>📈</span>
+            <div>
+              <h4>Digital Marketing</h4>
+              <p>Boosting online presence</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="hero-section">
+      <div class="hero-content">
+        <p class="greeting">Hi, we're here for</p>
+        <h1>Digital Solutions</h1>
+        <hr />
+        <p class="description">
+          We Believe in Pushing the Boundaries of What's Possible.
+        </p>
+        <button>Get in Touch</button>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="about-us">
+        <p class="little">Little something</p>
+        <h2>About Us</h2>
+        <hr />
+        <p class="description">
+          Our idea is simple yet powerful: Our mission is to provide new
+          platforms, new avenues and new business opportunities.
+        </p>
+      </div>
+      <div class="question-section">
+        <div class="right">
+          <h3>Why <span>Ideation</span>?</h3>
+          <p>
+            At IDEATION, we set the standard in IT and business services,
+            transforming visions into cutting-edge realities. Our unmatched
+            expertise in mobile content, core network solutions, and web
+            development keeps our clients ahead of the curve.
+          </p>
+          <p>
+            With a focus on innovation, we specialize in multimedia and creative
+            software, with a recent expansion into digital marketing.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact-section">
+      <div class="left">
+        <h4>Our Impact</h4>
+        <p>
+          Our journey is reflected in the numbers. Each milestone marks a step
+          towards excellence, showcasing our impact and growth.
+        </p>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+            <span>10</span><span>+</span
+            ><span class="content">Years of Experience</span>
+          </li>
+          <li>
+            <span>200</span><span>+</span
+            ><span class="content">Happy Clients</span>
+          </li>
+          <li>
+            <span>500</span><span>+</span
+            ><span class="content">Projects Delivered</span>
+          </li>
+          <li>
+            <span>100</span><span>%</span
+            ><span class="content">Customer Satisfaction</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="portfolio-section">
+      <div class="top">
+        <p>Our</p>
+        <p class="portfolio">Portfolio</p>
+        <p class="description">
+          <span>13 years </span> of experience in operator servieces, telco
+          platforms, messaging, voice, billing, and mobile advertising coupled
+          with deep integration wit MNOs, and a network that
+          <span>handles.</span>
+        </p>
+      </div>
+      <div class="bottom">
+        <div class="news-cards">
+          <!-- Card 1 -->
+          <div class="card">
+            <div class="inner">
+              <div class="front first-card">
+                <p class="title">Tamasha AI News</p>
+                <p>Redefining Digital News with AI Voices and Avatars</p>
+              </div>
+
+              <div class="back">
+                <div class="content">
+                  <h3>Tamasha <span>AI News</span></h3>
+                  <p>Redefining Digital News with AI Voices and Avatars.</p>
+                  <p>
+                    We create AI-generated news bulletins for Tamasha News AI
+                    and Digital Pakistan, combining advanced scripting, human
+                    like avatars, and in-house AI voice synthesis.From
+                    hyper-local stories to teach-focused updates...
+                  </p>
+                </div>
+                <div class="btn">
+                  <button>View Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <div class="inner">
+              <div class="front second-card">
+                <p class="title">Takhleeq AI</p>
+                <p>Where Imagination Meets Advanced AI Creativity</p>
+              </div>
+
+              <div class="back">
+                <div class="content">
+                  <h3>Takhleeq <span>AI</span></h3>
+                  <p>Where Imagination Meets Advanced AI Creativity</p>
+                  <p>
+                    Takhleeq AI is a next-generation AI plateform that creates
+                    high-impact content effortlessly. Its capabilities include
+                    next-to-image genearation, celebrity voice synthesis,
+                    instant background removal, image enhancment...
+                  </p>
+                </div>
+                <div class="btn">
+                  <button>View Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-cards">
+          <!-- first card -->
+          <div class="card">
+            <div class="inner">
+              <div class="front first-card">
+                <p class="title">AI Adverts</p>
+                <p>Creating Human-Like AI That Save Time and Amplify Results</p>
+              </div>
+
+              <div class="back">
+                <div class="content">
+                  <h3>AI <span>Adverts</span></h3>
+                  <p>
+                    Creating Human-Like AI That Save Time and Amplify Results
+                  </p>
+                  <p>
+                    We create fully customized, AI-generated ad content for B2C,
+                    entertainment, and enterprise sectors, combining human-like
+                    AI avatars, in-house tuned audio...
+                  </p>
+                </div>
+                <div class="btn">
+                  <button>View Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- second card -->
+          <div class="card">
+            <div class="inner">
+              <div class="front second-card">
+                <p class="title">Simosa</p>
+                <p>
+                  Powering Millions of Users with Next-Gen, Engaging Content
+                </p>
+              </div>
+
+              <div class="back">
+                <div class="content">
+                  <h3>Simosa</h3>
+                  <p>
+                    Powering Millions of Users with Next-Gen, Engaging Content
+                  </p>
+                  <p>
+                    Partnered with Jazz, we create advanced, research-driven
+                    content for Simosa App, from daily horoscopes and health
+                    tips to recipes, poetry, jokes, and inspirational quotes...
+                  </p>
+                </div>
+                <div class="btn">
+                  <button>View Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- third card -->
+          <div class="card">
+            <div class="inner">
+              <div class="front third-card">
+                <p class="title">StreamDial</p>
+                <p>Redefining Video Access through App-Free streaming</p>
+              </div>
+
+              <div class="back">
+                <div class="content">
+                  <h3>StreamDial</h3>
+                  <p>Redefining Video Access through App-Free streaming</p>
+                  <p>
+                    StreamDial is a next-generation video IVR technology that
+                    lets users stram live sports, dramas, music and more simple
+                    by dialing a shortcode...
+                  </p>
+                </div>
+                <div class="btn">
+                  <button>View Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="expertise">
+      <div class="expertise-top">
+        <span>Our</span>
+        <h2>Expertise</h2>
+        <p>
+          Whether you need a new website, a mobile app, or advanced messaging
+          services, we're here to help. From concept to completion, we offer a
+          full suite of services to meet your business goals.
+        </p>
+      </div>
+      <div class="expertise-bottom">
+        <div class="infinite-carousel">
+          <div class="track" id="track">
+            <div class="card">
+              <img src="./Images/social-card-1.png" alt="" />
+              <h2>Digital Evolution</h2>
+            </div>
+            <div class="card">
+              <img src="./Images/social-card-2.png" alt="" />
+              <h2>Media Services</h2>
+            </div>
+            <div class="card">
+              <img src="./Images/social-card-3.png" alt="" />
+              <h2>Telecom Mobility</h2>
+            </div>
+            <div class="card">
+              <img src="./Images/new-img-1.png" alt="" />
+              <h2>Annovative Technology</h2>
+            </div>
+            <div class="card">
+              <img src="./Images/news-img-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners-section">
+      <div class="partners-top-section">
+        <div class="partners-title">
+          <div class="partners-left-section">
+            <span>Our</span>
+            <h2>Partners</h2>
+          </div>
+          <div class="partners-right-section">
+            <p>
+              Our partners love us for a reason: we excel in mobile content,
+              core network solutions, and web development, always going the
+              extra mile.
+            </p>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="partners-bottom-section">
+        <div class="slider">
+          <!-- Row 1 -->
+          <div class="row left-to-right">
+            <div class="track">
+              <div class="item">
+                <img src="./Images/jazz.png" alt="jazz logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/bol.png" alt="bol logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/geo.png" alt="geo logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/zain.png" alt="zain logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/freshn.png" alt="freshn freez logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/ipri.png" alt="IPRI logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/huawei.png" alt="huawei logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/zong.png" alt="zong logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/telenor.png" alt="telenor logo" />
+              </div>
+
+              <!-- Duplicate for infinite effect -->
+              <div class="item">
+                <img src="./Images/jazz.png" alt="jazz logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/bol.png" alt="bol logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/geo.png" alt="geo logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/zain.png" alt="zain logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/freshn.png" alt="freshn freez logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/ipri.png" alt="IPRI logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/huawei.png" alt="huawei logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/zong.png" alt="zong logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/telenor.png" alt="telenor logo" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="row right-to-left">
+            <div class="track">
+              <div class="item">
+                <img src="./Images/aj-news.png" alt="aj news logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/ffc.png" alt="FFC logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/nestle.png" alt="NESTLE logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/econception.png" alt="eConception logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/ministry.png" alt="Ministry logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/fauji.png" alt="Fauji logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/khazana.png" alt="Khazana logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/du.png" alt="DU logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/coca-cola.png" alt="Coca Cola logo" />
+              </div>
+
+              <!-- Duplicate -->
+              <div class="item">
+                <img src="./Images/aj-news.png" alt="aj news logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/ffc.png" alt="FFC logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/nestle.png" alt="NESTLE logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/econception.png" alt="eConception logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/ministry.png" alt="Ministry logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/fauji.png" alt="Fauji logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/khazana.png" alt="Khazana logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/du.png" alt="DU logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/coca-cola.png" alt="Coca Cola logo" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 3 -->
+          <div class="row left-to-right">
+            <div class="track">
+              <div class="item">
+                <img src="./Images/samaa.png" alt="SAMAA logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/gtv.png" alt="GTV logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/ufone.png" alt="UFONE logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/starzplay.png" alt="Starzplay logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/cnn.png" alt="CNN logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/hum-news.png" alt="Hum news logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/pemra.png" alt="PEMRA logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/ztbl.png" alt="ZTBL logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/zte.png" alt="ZTE logo" />
+              </div>
+
+              <!-- Duplicate -->
+              <div class="item">
+                <img src="./Images/samaa.png" alt="SAMAA logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/gtv.png" alt="GTV logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/ufone.png" alt="UFONE logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/starzplay.png" alt="Starzplay logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/cnn.png" alt="CNN logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/hum-news.png" alt="Hum news logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/pemra.png" alt="PEMRA logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/ztbl.png" alt="ZTBL logo" />
+              </div>
+              <div class="item">
+                <img src="./Images/zte.png" alt="ZTE logo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-section-content">
+        <h1>Let's Reach Highest Tops, Side by Side</h1>
+        <p>We would love to hear from you.</p>
+        <a href="./pages/contact.html">Get in Touch</a>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-top">
+        <div class="first-div">
+          <img src="./Images/orange_fits.png" alt="Digital Fits logo" />
+        </div>
+        <div class="second-div">
+          <h3>Useful</h3>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="third-div">
+          <h3>Legal</h3>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
+        <div class="fourth-div">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+        <div class="fifth-div">
+          <h3>Contact Details</h3>
+          <a href="#">digitalFits@gmail.com</a>
+          <a href="#">+92 012345678</a>
+          <a href="#">Islamabad Gullberg Green</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Digital Fits, 2025. All Rights Reserved</p>
+        <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
