@@ -500,6 +500,10 @@ body {
   height: 90vh;
   display: flex;
   flex-direction: column;
+  background: url("./Images/services-area.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .expertise .expertise-top {
@@ -537,7 +541,7 @@ body {
 }
 
 .infinite-carousel {
-  width: 100%;
+  width: 85%;
   overflow: hidden;
   padding: 40px 0px;
 }
@@ -568,7 +572,8 @@ body {
 
 .track .card h2 {
   color: var(--text-color);
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .partners-section {
@@ -662,7 +667,28 @@ body {
   animation: scroll-ltr 20s linear infinite;
 }
 
+.contact-video {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+}
+
+.contact-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: -1;
+}
+
 .contact-section {
+  position: relative;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -687,7 +713,7 @@ body {
   padding: 10px 40px;
   border: 2px solid var(--heading-color);
   font-size: 16px;
-  color: var(--heading-color);
+  color: var(--text-color);
   border-radius: 20px;
   background-color: transparent;
   transition: all 0.5s ease-in-out;
