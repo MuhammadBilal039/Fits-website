@@ -159,6 +159,7 @@
 .img-section .top img {
   width: 30%;
   transition: transform 0.4s ease-in-out;
+  object-fit: cover;
 }
 
 .left-side .img-section .center {
@@ -170,6 +171,7 @@
 .img-section .center img {
   width: 80%;
   transition: transform 0.4s ease-in-out;
+  object-fit: cover;
 }
 
 .left-side .img-section .bottom {
@@ -179,6 +181,7 @@
 .img-section .bottom img {
   width: 35%;
   transition: transform 0.4s ease-in-out;
+  object-fit: cover;
 }
 
 .right-side {
@@ -229,6 +232,7 @@
 .top-side .right-section img {
   width: 100%;
   transition: transform 0.4s ease-in-out;
+  object-fit: cover;
 }
 
 .top-side:hover {
@@ -272,6 +276,7 @@
 .bottom-side .right-section img {
   width: 100%;
   transition: transform 0.4s ease-in-out;
+  object-fit: cover;
 }
 
 .bottom-side:hover {
@@ -328,6 +333,7 @@
 .telecom-img-section img {
   width: 90%;
   transition: transform 0.4s ease-in-out;
+  object-fit: cover;
 }
 
 .telecom-img-section:hover img {
@@ -384,6 +390,7 @@
 .telecom-right-top-side img {
   width: 30%;
   transition: transform 0.4s ease-in-out;
+  object-fit: cover;
 }
 
 .telecom-right-top-side:hover img {
@@ -481,6 +488,7 @@
 
 .left-side-div .contents-side-div p {
   font-size: 18px;
+  width: 270px;
 }
 
 .left-side-div .image-side-div {
@@ -489,8 +497,9 @@
 }
 
 .left-side-div .image-side-div img {
-  width: 100%;
+  width: 90%;
   transition: transform 0.4s ease-in-out;
+  object-fit: cover;
 }
 
 .left-side-div:hover img {
@@ -521,6 +530,7 @@
 .right-side-div .image-side-div img {
   width: 90%;
   transition: transform 0.4s ease;
+  object-fit: cover;
 }
 
 .right-side-div:hover img {
