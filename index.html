@@ -26,16 +26,15 @@
       </div>
 
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="./pages/about.html">About Us</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
 
         <li class="dropdown">
-          <a href="./pages/services.html"
-            >Services <span><i class="fa-solid fa-caret-down"></i></span
-          ></a>
+          <a href="#services"
+            >Services</a>
         </li>
 
-        <li><a href="./pages/portfolio.html">Products & Portfolio</a></li>
+        <li><a href="#portfolio">Products & Portfolio</a></li>
       </ul>
 
       <a href="./pages/contact.html" class="contact-btn">Contact</a>
@@ -44,9 +43,8 @@
     </nav>
 
     <!-- ================= MEGA DROPDOWN ================= -->
-    <div class="services-dropdown" id="servicesDropdown">
+    <!-- <div class="services-dropdown" id="servicesDropdown">
       <div class="services-container">
-        <!-- COLUMN 1 -->
         <div class="service-column">
           <h3>Telecom Mobility</h3>
 
@@ -91,7 +89,6 @@
           </div>
         </div>
 
-        <!-- COLUMN 2 -->
         <div class="service-column">
           <h3>Digital Evolution</h3>
 
@@ -120,7 +117,6 @@
           </div>
         </div>
 
-        <!-- COLUMN 3 -->
         <div class="service-column">
           <h3>Innovative Technology</h3>
 
@@ -165,7 +161,6 @@
           </div>
         </div>
 
-        <!-- COLUMN 4 -->
         <div class="service-column">
           <h3>Media Services</h3>
 
@@ -194,9 +189,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <section class="hero-section">
+    <!-- Hero / Home Section -->
+    <section class="hero-section" id="home">
       <!-- ===== BACKGROUND VIDEO ===== -->
       <div class="hero-video">
         <video autoplay muted loop playsinline>
@@ -206,48 +202,95 @@
 
       <div class="hero-content">
         <p class="greeting">Hi, we're here for</p>
-        <h1>Digital Solutions</h1>
+        <h1>Creative Solutions</h1>
         <hr />
         <p class="description">
           We Believe in Pushing the Boundaries of What's Possible.
         </p>
-        <button>Get in Touch</button>
+        <p class="description"></p>
+        <a href="./pages/contact.html">Get in Touch</a>
       </div>
     </section>
 
-    <section class="about-section">
+    <!-- About Section -->
+    <section class="about-section" id="about">
       <div class="about-video">
         <video autoplay muted loop playsinline>
           <source src="./videos/about-us.mp4" type="video/mp4">
         </video>
       </div>
       <div class="about-us">
-        <p class="little">Little something</p>
+        <div class="about-section-overlay">
+          <p class="little">Little something</p>
         <h2>About Us</h2>
         <hr />
         <p class="description">
-          Our idea is simple yet powerful: Our mission is to provide new
-          platforms, new avenues and new business opportunities.
+          <span>Fits digital</span> is a digital services provider focused on delivering innovative and scalable solutions for the telecom industry. We help telcos optimize operations, enhance performance, and drive growth through smart digital enablement.
         </p>
+        <p class="description">Driven by innovation, we specialize in multimedia, creative software, and interactive gaming platforms, with an expanding footprint in digital marketing and value-added services.</p>
+        </div>
       </div>
-      <div class="question-section">
+      <div class="first-question">
         <div class="right">
-          <h3>Why <span>Ideation</span>?</h3>
+          <h3>Why Fits?</h3>
+          <hr>
           <p>
-            At IDEATION, we set the standard in IT and business services,
-            transforming visions into cutting-edge realities. Our unmatched
-            expertise in mobile content, core network solutions, and web
-            development keeps our clients ahead of the curve.
+            At <span>Fits Digital</span>, we set the standard in digital and telecom-focused services, transforming ideas into reliable, future-ready solutions. Our expertise spans mobile content, core network solutions, web development, and gaming services-helping our partners stay ahead in a competitive digital landscape.
           </p>
-          <p>
-            With a focus on innovation, we specialize in multimedia and creative
-            software, with a recent expansion into digital marketing.
+          <p class="description">
+            Driven by innovation, we specialize in multimedia, creative software, and interactive gaming platforms, with an expanding footprint in digital marketing and value-added services.
           </p>
+        </div>
+      </div>
+      <div class="second-question">
+        <div class="second-left-side">
+          <h3>About <span>Zaheen</span></h3>
+        <hr>
+        <p>
+          <span>Zaheen</span> is an online educational platform offering a variety of skill-based courses and learning resources for students and professionals. It provides structured lessons, interactive content, and tools to help learners improve in areas like web and app development as well as general knowledge topics. The platform also supports instructors to create and manage courses, making it a comprehensive hub for both learning and teaching.
+        </p>
+        </div>
+      </div>
+      <div class="third-question">
+        <div class="third-right-side">
+          <h3>About <span>Fits World</span></h3>
+          <hr>
+        <p>
+          <span>FitsWorld</span> is a fun and interactive digital entertainment platform where users can enjoy a variety of free HTML5 games, wallpapers, music, and more - all in one place. Designed to be accessible and engaging for users of all ages, the site features multiple categories like "Click & Play," "Smile Station," "Health & Fitness," and "Play & Learn," making it more than just a gaming site. FitsWorld aims to be a one-stop hub for entertainment, casual gaming, and creative content that keeps users entertained and coming back for new experiences online.
+        </p>
+        </div>
+      </div>
+      <div class="fourth-question">
+        <div class="fourth-left-side">
+          <h3>About <span>QuizziBee</span></h3>
+        <hr>
+        <p>
+          <span>QuizziBee</span> is an online quiz and trivia platform where users can create, attempt, and enjoy quizzes across a wide range of topics. It offers an interactive environment for learning, testing knowledge, and challenging friends or other participants. Users can explore subject-based questions, engage with fun trivia, and sharpen their skills through varied quiz formats - making it both an educational and entertaining experience.
+        </p>
+        </div>
+      </div>
+      <div class="fifth-question">
+        <div class="fifth-right-side">
+          <h3>About <span>Super Chat</span></h3>
+          <hr>
+        <p>
+          <span>Super Chat</span> is a live streaming platform that helps creators and viewers engage in real time. Streamers can receive donations with custom pop-ups, use interactive overlays, and integrate seamless, fun, and rewarding, helping creators grow and monetize their content effectively.
+        </p>
+        </div>
+      </div>
+      <div class="sixth-question">
+        <div class="sixth-left-side">
+          <h3>About <span>Iqra360</span></h3>
+        <hr>
+        <p>
+          <span>Iqra 360</span> is an engaging Islamic and Quranic learning app designed for kids. If offers interactive videos, lessons, and activities to make learning about the Quran, prayers, and Islamic values fun and easy. The platform combines education with entertainment, helping children develop knowledge, faith, and moral understanding in an interactive digital environment.
+        </p>
         </div>
       </div>
     </section>
 
-    <section class="portfolio-section">
+    <!-- Portfolio Section -->
+    <section class="portfolio-section" id="portfolio">
       <div class="top">
         <p>Our</p>
         <p class="portfolio">Portfolio</p>
@@ -396,7 +439,7 @@
       </div>
     </section>
 
-    <section class="expertise">
+    <!-- <section class="expertise">
       <div class="expertise-top">
         <span>Our</span>
         <h2>Expertise</h2>
@@ -431,8 +474,188 @@
           </div>
         </div>
       </div>
+    </section> -->
+
+    <!-- Services Sections -->
+    <section class="services-hero-section" id="services">
+      <div class="services-content">
+        <p class="title">Our Services</p>
+        <h3>Beyond the Ordinary, Into the Future</h3>
+        <p class="description">Let's Work on the next great thing.</p>
+      </div>
     </section>
 
+    <section class="services-telecom-section">
+      <div class="services-telecom-top-section">
+        <h3>Telecom Mobility</h3>
+      </div>
+      <div class="services-telecom-bottom-section">
+        <div class="left-side">
+          <div class="content-section">
+            <img src="../Images/phone-icon-img.png" alt="phone-icon-image" />
+            <h4>Value Added Services</h4>
+            <p>
+              Enhance customer engagement, drive revenue growth, and stand out
+              in a competitive market.
+            </p>
+          </div>
+          <div class="img-section">
+            <div class="top">
+              <img src="../Images/star-img.png" alt="star img" />
+            </div>
+            <div class="center">
+              <img src="../Images/star-img.png" alt="star img" />
+            </div>
+            <div class="bottom">
+              <img src="../Images/star-img.png" alt="star img" />
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="top-side">
+            <div class="left-section">
+              <h4>Network Infrastructure Planning & Design</h4>
+              <p>
+                It can help you plan how to implement, monitor, and manage an IT
+                network.
+              </p>
+            </div>
+            <div class="right-section">
+              <img src="../Images/networking.png" alt="Networking image" />
+            </div>
+          </div>
+          <div class="bottom-side">
+            <div class="left-section">
+              <h4>OSS/BSS</h4>
+              <p>Enhance operational efficiency and customer experience.</p>
+            </div>
+            <div class="right-section">
+              <img src="../Images/oss-img.png" alt="OSS image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <section class="telecom-second-section">
+      <div class="telecom-second-section-inner-div">
+        <div class="left-side">
+          <div class="telecom-img-section">
+            <img src="../Images/subscriber-img.png" alt="Subscriber image" />
+          </div>
+          <div class="telecom-contents-section">
+            <h4>Subscriber Data Management (SDM)</h4>
+            <p>Streamline service delivery for better customer satisfaction.</p>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="telecom-right-top-side">
+            <img src="../Images/cloud-img.png" alt="cloud image" />
+            <h4>Cloud Communincation Services</h4>
+          </div>
+          <div class="telecom-right-bottom-side">
+            <p>
+              Allows efficient communication of both voice and data
+              communication via the cloud.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <section class="digital-elvolution-section">
+      <div class="digital-evolution-top-section">
+        <h3>Digital Evolution</h3>
+      </div>
+      <div class="digital-evolution-bottom-section">
+        <div class="mobile-and-software-container">
+          <div class="left-side-div">
+            <div class="contents-side-div">
+              <h4>Mobile App/Web Development</h4>
+              <p>
+                The process of creating software applications that run on a
+                mobile device.
+              </p>
+            </div>
+            <div class="image-side-div">
+              <img src="../Images/cursor-img.png" alt="cursor image" />
+            </div>
+          </div>
+          <div class="right-side-div">
+            <div class="image-side-div">
+              <img src="../Images/software-img.png" alt="software image" />
+            </div>
+            <div class="contents-side-div">
+              <h4>Customized Software</h4>
+              <p>
+                Tailored software solutions, designed specifically for your
+                business.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="ott-plateform-container">
+          <div class="image-side-div">
+            <img src="../Images/live-tv-img.png" alt="Live TV image" />
+          </div>
+          <div class="content-side-div">
+            <h4>Live TV & OTT Plateforms</h4>
+            <p>
+              Tools which allow the efficient communication of both voice and
+              data communication via the cloud
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="unleash-digital-evolution-section">
+      <div class="unleash-top-section">
+        <h3>Unleash Digital Evolution</h3>
+      </div>
+      <div class="unleash-bottom-section">
+        <div class="unleash-bottom-upper-section">
+          <div class="upper-left-section">
+            <img
+              src="../Images/content-prod.png"
+              alt="content production image"
+            />
+            <div class="upper-left-side-contents">
+              <h4>Content Production</h4>
+              <p>
+                We specialize in creating high-quality content that resonates
+                with your target audience
+              </p>
+            </div>
+          </div>
+          <div class="upper-right-section">
+            <h4>Advertisement Solutions</h4>
+            <p>Reach your target audience with precision.</p>
+            <img src="../Images/advertiment.png" alt="Advertisement image" />
+          </div>
+        </div>
+        <div class="unleash-bottom-lower-section">
+          <div class="contents-side-div">
+            <h4>Digital Marketing</h4>
+            <p>
+              From <span>SEO</span> and <span>SEM</span> to social media
+              marketing and email campaigns, we design end-to-end digital
+              strategies that increase visibility
+            </p>
+          </div>
+          <img src="../Images/social-laptop.png" alt="socail laptop image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="collaborate-section">
+      <div class="collaborate-main-section">
+        <h2>Let's Collaborate</h2>
+        <a href="./pages/contact.html">Get in Touch</a>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
     <section class="partners-section">
       <div class="partners-top-section">
         <div class="partners-title">
@@ -458,24 +681,6 @@
               <div class="item">
                 <img src="./Images/jazz.png" alt="jazz logo" />
               </div>
-              <!-- <div class="item">
-                <img src="./Images/bol.png" alt="bol logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/geo.png" alt="geo logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/zain.png" alt="zain logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/freshn.png" alt="freshn freez logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/ipri.png" alt="IPRI logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/huawei.png" alt="huawei logo" />
-              </div> -->
               <div class="item">
                 <img src="./Images/zong.png" alt="zong logo" />
               </div>
@@ -505,24 +710,6 @@
               <div class="item">
                 <img src="./Images/jazz.png" alt="jazz logo" />
               </div>
-              <!-- <div class="item">
-                <img src="./Images/bol.png" alt="bol logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/geo.png" alt="geo logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/zain.png" alt="zain logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/freshn.png" alt="freshn freez logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/ipri.png" alt="IPRI logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/huawei.png" alt="huawei logo" />
-              </div> -->
               <div class="item">
                 <img src="./Images/zong.png" alt="zong logo" />
               </div>
@@ -555,24 +742,6 @@
               <div class="item">
                 <img src="./Images/jazz.png" alt="jazz logo" />
               </div>
-              <!-- <div class="item">
-                <img src="./Images/bol.png" alt="bol logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/geo.png" alt="geo logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/zain.png" alt="zain logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/freshn.png" alt="freshn freez logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/ipri.png" alt="IPRI logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/huawei.png" alt="huawei logo" />
-              </div> -->
               <div class="item">
                 <img src="./Images/zong.png" alt="zong logo" />
               </div>
@@ -602,24 +771,6 @@
               <div class="item">
                 <img src="./Images/jazz.png" alt="jazz logo" />
               </div>
-              <!-- <div class="item">
-                <img src="./Images/bol.png" alt="bol logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/geo.png" alt="geo logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/zain.png" alt="zain logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/freshn.png" alt="freshn freez logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/ipri.png" alt="IPRI logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/huawei.png" alt="huawei logo" />
-              </div> -->
               <div class="item">
                 <img src="./Images/zong.png" alt="zong logo" />
               </div>
@@ -653,24 +804,6 @@
               <div class="item">
                 <img src="./Images/jazz.png" alt="jazz logo" />
               </div>
-              <!-- <div class="item">
-                <img src="./Images/bol.png" alt="bol logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/geo.png" alt="geo logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/zain.png" alt="zain logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/freshn.png" alt="freshn freez logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/ipri.png" alt="IPRI logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/huawei.png" alt="huawei logo" />
-              </div> -->
               <div class="item">
                 <img src="./Images/zong.png" alt="zong logo" />
               </div>
@@ -700,24 +833,6 @@
               <div class="item">
                 <img src="./Images/jazz.png" alt="jazz logo" />
               </div>
-              <!-- <div class="item">
-                <img src="./Images/bol.png" alt="bol logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/geo.png" alt="geo logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/zain.png" alt="zain logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/freshn.png" alt="freshn freez logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/ipri.png" alt="IPRI logo" />
-              </div>
-              <div class="item">
-                <img src="./Images/huawei.png" alt="huawei logo" />
-              </div> -->
               <div class="item">
                 <img src="./Images/zong.png" alt="zong logo" />
               </div>
@@ -771,9 +886,9 @@
         </div>
         <div class="second-div">
           <h3>Useful</h3>
-          <a href="./pages/about.html">About</a>
-          <a href="./pages/services.html">Services</a>
-          <a href="./pages/portfolio.html">Portfolio</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
           <a href="./pages/contact.html">Contact</a>
         </div>
         <div class="third-div">
@@ -794,9 +909,9 @@
         </div>
         <div class="fifth-div">
           <h3>Contact Details</h3>
-          <a href="#">digitalFits@gmail.com</a>
-          <a href="#">+92 012345678</a>
-          <a href="#">Islamabad Gullberg Green</a>
+          <a href="#">info@fits.com.pk</a>
+          <a href="#">051-2758291</a>
+          <a href="#">Gulberg Greens, Islamabad, Pakistan</a>
         </div>
       </div>
       <div class="footer-bottom">
