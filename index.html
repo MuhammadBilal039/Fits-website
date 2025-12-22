@@ -25,7 +25,7 @@
         </a>
       </div>
 
-      <ul class="nav-links">
+      <ul class="nav-links" id="navLinks">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About Us</a></li>
 
@@ -39,7 +39,7 @@
 
       <a href="./pages/contact.html" class="contact-btn">Contact</a>
 
-      <div class="mobile-menu" id="mobileMenuBtn">☰</div>
+      <div class="mobile-menu" id="menu">☰</div>
     </nav>
 
     <!-- Hero / Home Section -->
@@ -70,7 +70,8 @@
           <source src="./videos/about-us.mp4" type="video/mp4">
         </video>
       </div> -->
-      <div class="about-us">
+      <div class="about-section-contents-side">
+        <div class="about-us">
         <div class="about-section-overlay">
           <p class="little">Little something</p>
         <h2>About Us</h2>
@@ -81,17 +82,9 @@
         <p class="description">Driven by innovation, we specialize in multimedia, creative software, and interactive gaming platforms, with an expanding footprint in digital marketing and value-added services.</p>
         </div>
       </div>
-      <div class="first-question">
-        <div class="right">
-          <h3>Why Fits?</h3>
-          <hr>
-          <p>
-            At <span>Fits Digital</span>, we set the standard in digital and telecom-focused services, transforming ideas into reliable, future-ready solutions. Our expertise spans mobile content, core network solutions, web development, and gaming services-helping our partners stay ahead in a competitive digital landscape.
-          </p>
-          <p class="description">
-            Driven by innovation, we specialize in multimedia, creative software, and interactive gaming platforms, with an expanding footprint in digital marketing and value-added services.
-          </p>
-        </div>
+      </div>
+      <div class="about-section-image-side">
+        <img src="./Images/orange_fits.png" alt="">
       </div>
     </section>
 
@@ -113,8 +106,7 @@
           <div class="card">
             <div class="inner">
               <div class="front first-card">
-                <p class="title">Zaheen</p>
-                <p>A modern e-learning solution focused on accessible, engaging, and effective learning.</p>
+                <img src="./Images/zaheen-logo.png" alt="">
               </div>
 
               <div class="back">
@@ -125,7 +117,7 @@
                   </p>
                 </div>
                 <div class="btn">
-                  <button>View Details</button>
+                  <a href="https://zaheen.com.pk/" target="_blank">View Details</a>
                 </div>
               </div>
             </div>
@@ -135,8 +127,7 @@
           <div class="card">
             <div class="inner">
               <div class="front second-card">
-                <p class="title">Fits World</p>
-                <p>An interactive platform combining games, creativity, and entertainment in one place.</p>
+                <img src="./Images/fitsworld-logo.png" alt="">
               </div>
 
               <div class="back">
@@ -147,7 +138,7 @@
                   </p>
                 </div>
                 <div class="btn">
-                  <button>View Details</button>
+                  <a href="https://fitsworld.com.pk/" target="_blank">View Details</a>
                 </div>
               </div>
             </div>
@@ -173,7 +164,7 @@
                   </p>
                 </div>
                 <div class="btn">
-                  <button>View Details</button>
+                  <a href="http://quizzibee.com/" target="_blank">View Details</a>
                 </div>
               </div>
             </div>
@@ -198,7 +189,7 @@
                   </p>
                 </div>
                 <div class="btn">
-                  <button>View Details</button>
+                  <a href="https://iqra360.info/" target="_blank">View Details</a>
                 </div>
               </div>
             </div>
@@ -221,7 +212,7 @@
                   </p>
                 </div>
                 <div class="btn">
-                  <button>View Details</button>
+                  <a href="https://superchat.crazy.com.pk/" target="_blank">View Details</a>
                 </div>
               </div>
             </div>
@@ -229,6 +220,212 @@
         </div>
       </div>
     </section>
+
+    <!-- carousel slider Section -->
+     <!-- <section class="carousel-section">
+
+     </section> -->
+
+  <section class="services-carousel-wrapper">
+
+    <div class="services-carousel-top">
+  <h2>Featured Services that We Provide.</h2>
+
+    </div>
+    <div class="services-carousel-bottom">
+<!-- LEFT ARROW -->
+  <button class="arrow left" id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
+
+
+  <!-- VIEWPORT -->
+  <div class="services-carousel">
+    <div class="carousel-track" id="carouselTrack">
+
+      <!-- CARD -->
+      <div class="service-card">
+        <div class="card-front">
+          <span class="icon"><img src="./Images/VAS.svg" alt="vas icon"></span>
+          <h3>Core Vas Services</h3>
+          <p>With our Value Added Services, you can get an increasingly agreeable, progressively helpful experience.</p>
+        </div>
+
+        <div class="card-hover">
+          <!-- <div class="card-hover-overlay"> -->
+            <p>Core Vas Services</p>
+            <h2>Core Vas Services</h2>
+            <ul class="menu">
+             <li>Auto Reply Platform</li>
+             <li>Call completion Suite</li>
+             <li>Auto Connect Platform</li>
+             <li>Missed Call Alert Solution</li>
+             <li>End of Call notification</li>
+             <li>Voice Mail</li>
+             <li>My Status Service</li>
+             <li>Multi Number Platform</li>
+             <li>Beep Call Solution</li>
+             <li>Audio & Video Streaming Platform</li>
+             <li>Tracking Solution</li>
+             <li>USSD/SMS Gateway Solutions</li>
+             <li>SMS Services</li>
+             <li>Notify Me Solution</li>
+             <li>Mobile IVR Solutions</li>
+             <li>Star Name Service</li>
+             <li>CRBT Platform</li>
+             <li>LBS Platform</li>
+            </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+
+      <!-- Duplicate cards -->
+      <div class="service-card">
+        <div class="card-front">
+          <span class="icon"><img src="./Images/payment.svg" alt="payment icon"></span>
+          <h3>Payment Gateway Solution</h3>
+          <p>We have developed next generation digital wallet solutions for Banks & other clients globally.</p>
+        </div>
+
+        <div class="card-hover">
+          <!-- <div class="card-hover-overlay"> -->
+            <p>Payment Gateway Solution</p>
+            <h2>Payment Gateway Solution</h2>
+            <ul class="menu">
+             <li>Payments Automation Solutions</li>
+             <li>Dynamic payment platforms and integrations</li>
+             <li>Crowdfunding portals development</li>
+             <li>Customer payment portals designing & development</li>
+            </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="card-front">
+          <span class="icon"><img src="./Images/e-commerce.svg" alt="e-commerce icon"></span>
+          <h3>E-Commerce</h3>
+          <p>Our Services team provides services to integrate any IT or Telecom solution with a Telecom Operator.</p>
+        </div>
+
+        <div class="card-hover">
+          <!-- <div class="card-hover-overlay"> -->
+            <p>E-Commerce</p>
+            <h2>E-Commerce</h2>
+            <ul class="menu">
+             <li>Telecom Call Completion Solution</li>
+             <li>Streaming Platforms development</li>
+             <li>IVR Development</li>
+             <li>SMS Applications Development</li>
+             <li>SIGTRAN, MAP based Integrations and Development</li>
+             <li>Billing Applications and Integration </li>
+             <li>SMPP Gateway, USSD Gateway</li>
+            </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="card-front">
+          <span class="icon"><img src="./Images/seo.svg" alt="seo icon"></span>
+          <h3>SEO / Social Media Marketing</h3>
+          <p>Get real traffic & sales to your website with "White hat" SEO & Digital Marketing services.</p>
+        </div>
+
+        <div class="card-hover">
+          <!-- <div class="card-hover-overlay"> -->
+            <p>SEO</p>
+            <h2>SEO / Social Media Marketing</h2>
+            <ul class="menu">
+             <li>Online Reputation Management</li>
+             <li>Content Marketing Strategy</li>
+             <li>SEO Strategy</li>
+             <li>Keyword Ranking</li>
+             <li>Local Audience SEO</li>
+             <li>Social Media Marketing</li>
+             <li>Premium Support</li>
+            </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="card-front">
+          <span class="icon"><img src="./Images/cloud.svg" alt="cloud icon"></span>
+          <h3>AI Solutions</h3>
+          <p>Cloud & DevOps development solutions with industry-best practices & tools available in the market.</p>
+        </div>
+
+        <div class="card-hover">
+          <!-- <div class="card-hover-overlay"> -->
+            <p>AI Solutions</p>
+            <h2>AI Solutions</h2>
+            <ul class="menu">
+             <li>Cloud platform and software development </li>
+             <li>Hybrid cloud apps</li>
+             <li>Automation and monitoring</li>
+             <li>Secured Services</li>
+             <li>Certified Experts</li>
+            </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="card-front">
+          <span class="icon"><img src="./Images/cms.svg" alt="cms icon"></span>
+          <h3>Content Management Services</h3>
+          <p>Drupal, Liferay, Wordpress Development,</p>
+        </div>
+
+        <div class="card-hover">
+          <!-- <div class="card-hover-overlay"> -->
+            <p>CMS</p>
+            <h2>Content Management Services</h2>
+            <ul class="menu">
+             <li>Complete Design & Development with CMS (Basic/Advanced)</li>
+             <li>Technology Solutions</li>
+             <li>Software Development</li>
+             <li>Mobile application Development</li>
+             <li>Enterprise Application Development</li>
+             <li>On demand software & application Development</li>
+             <li>Search Engine Optimization (SEO) Off Page & On Page</li>
+             <li>E-Commerce Solutions</li>
+             <li>Offshore IT Consulting Services</li>
+             <li>IT Outsourcing Solutions</li>
+            </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="card-front">
+          <span class="icon"><img src="./Images/mobile.svg" alt="mobile icon"></span>
+          <h3>Mobile App Development</h3>
+          <p>We takes pride in being the best mobile app development services provider in the region.</p>
+        </div>
+
+        <div class="card-hover">
+          <!-- <div class="card-hover-overlay"> -->
+            <p>Mobile App Development</p>
+            <h2>Mobile App Development</h2>
+            <ul class="menu">
+             <li>Java | Kotlin</li>
+             <li>Swift | Objective-C</li>
+             <li>iOS</li>
+             <li>Windows Mobile 7/8 Phones</li>
+             <li>Reactive Native</li>
+             <li>Ionic</li>
+             <li>Flutter</li>
+            </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- RIGHT ARROW -->
+  <button class="arrow right" id="nextBtn"> <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+  
+
+</section>
+
 
     <!-- <section class="expertise">
       <div class="expertise-top">
@@ -322,6 +519,25 @@
       </div>
     </section>
 
+     <!-- Fits World Section -->
+    <section class="fitsworld-section">
+      <div class="fitsworld-image-section">
+        <img src="./Images/orange_fits.png" alt="">
+      </div>
+      <div class="fitsworld-contents-section">
+        <div class="right">
+          <h3>Why Fits?</h3>
+          <hr>
+          <p>
+            At <span>Fits Digital</span>, we set the standard in digital and telecom-focused services, transforming ideas into reliable, future-ready solutions. Our expertise spans mobile content, core network solutions, web development, and gaming services-helping our partners stay ahead in a competitive digital landscape.
+          </p>
+          <p class="description">
+            Driven by innovation, we specialize in multimedia, creative software, and interactive gaming platforms, with an expanding footprint in digital marketing and value-added services.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- Partners Section -->
     <section class="partners-section">
       <div class="partners-top-section">
@@ -345,6 +561,21 @@
           <!-- Row 1 -->
           <div class="row left-to-right">
             <div class="track">
+              <div class="item">
+                <img src="./Images/Shahjehan_logo.png" alt="shahjehan logo" />
+              </div>
+               <div class="item">
+                <img src="./Images/competitor.png" alt="competitor logo" />
+              </div>
+               <div class="item">
+                <img src="./Images/crazy.png" alt="crazy logo" />
+              </div>
+               <div class="item">
+                <img src="./Images/goby512.png" alt="goby512 logo" />
+              </div>
+               <div class="item">
+                <img src="./Images/al-salam.png" alt="al-salam logo" />
+              </div>
               <div class="item">
                 <img src="./Images/jazz.png" alt="jazz logo" />
               </div>
@@ -374,6 +605,21 @@
               </div>
 
               <!-- Duplicate for infinite effect -->
+               <div class="item">
+                <img src="./Images/Shahjehan_logo.png" alt="shahjehan logo" />
+              </div>
+               <div class="item">
+                <img src="./Images/competitor.png" alt="competitor logo" />
+              </div>
+               <div class="item">
+                <img src="./Images/crazy.png" alt="crazy logo" />
+              </div>
+               <div class="item">
+                <img src="./Images/goby512.png" alt="goby512 logo" />
+              </div>
+               <div class="item">
+                <img src="./Images/al-salam.png" alt="al-salam logo" />
+              </div>
               <div class="item">
                 <img src="./Images/jazz.png" alt="jazz logo" />
               </div>
@@ -404,7 +650,7 @@
           </div>
 
           <!-- Row 2 -->
-          <div class="row right-to-left">
+          <!-- <div class="row right-to-left">
              <div class="track">
               <div class="item">
                 <img src="./Images/jazz.png" alt="jazz logo" />
@@ -432,10 +678,10 @@
               </div>
               <div class="item">
                 <img src="./Images/telenor.png" alt="telenor logo" />
-              </div>
+              </div> -->
 
               <!-- Duplicate for infinite effect -->
-              <div class="item">
+              <!-- <div class="item">
                 <img src="./Images/jazz.png" alt="jazz logo" />
               </div>
               <div class="item">
@@ -463,10 +709,10 @@
                 <img src="./Images/telenor.png" alt="telenor logo" />
               </div>
           </div>
-          </div>
+          </div> -->
 
           <!-- Row 3 -->
-          <div class="row left-to-right">
+          <!-- <div class="row left-to-right">
              <div class="track">
               <div class="item">
                 <img src="./Images/jazz.png" alt="jazz logo" />
@@ -496,7 +742,6 @@
                 <img src="./Images/telenor.png" alt="telenor logo" />
               </div>
 
-              <!-- Duplicate for infinite effect -->
               <div class="item">
                 <img src="./Images/jazz.png" alt="jazz logo" />
               </div>
@@ -525,7 +770,7 @@
                 <img src="./Images/telenor.png" alt="telenor logo" />
               </div>
           </div>
-          </div>
+          </div> -->
           </div>
       </div>
     </section>
