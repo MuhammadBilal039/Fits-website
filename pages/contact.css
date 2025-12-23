@@ -398,3 +398,227 @@ p.location-title {
     transition: all 0.5s ease-in-out;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* ================= CONTACT HERO ================= */
+  .contact-hero-section {
+    padding: 0 40px;
+    height: auto;
+  }
+
+  /* ================= CONTACT FORM ================= */
+  .contact-form {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .top-contact-section h3 {
+    font-size: 34px;
+  }
+
+  .top-contact-section p.contact-description {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  form {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  form .form-left-side,
+  .form-right-side {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  /* ================= COMMUNICATION SECTION ================= */
+  .communication-section {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .communication-top-section h3 {
+    width: 100%;
+    font-size: 32px;
+  }
+
+  .communication-top-section p {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .communication-bottom-section {
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+  }
+
+  .communication-bottom-section .left-section,
+  .communication-bottom-section .right-section {
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  /* ================= LEFT INFO BOXES ================= */
+  .left-section .left-top-section {
+    height: auto;
+  }
+
+  .left-top-section .email-title {
+    background-position: right 20px center;
+    background-size: 80px;
+  }
+
+  .left-section .left-bottom-section {
+    background-position: right 20px top 20px;
+    background-size: 60px;
+  }
+
+  /* ================= RIGHT DETAILS ================= */
+  .right-section .department-detials {
+    background-position: right 30px top 30px;
+    background-size: 60px;
+  }
+
+  .department-top-section {
+    margin-top: 30px;
+  }
+
+  .department-top-section p.location-details {
+    width: 100%;
+  }
+
+  /* ================= MAP SECTION ================= */
+  .map-section {
+    height: auto;
+    padding: 80px 40px;
+  }
+
+  .map-contents h4 {
+    font-size: 32px;
+  }
+
+  .map-contents p.map-descriptions {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* ================= CONTACT HERO ================= */
+  .contact-hero-section {
+    padding: 0 16px;
+    height: auto;
+  }
+
+  /* ================= CONTACT FORM ================= */
+  .contact-form {
+    height: auto;
+    padding: 40px 10px;
+  }
+
+  .top-contact-section h3 {
+    font-size: 26px;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  .top-contact-section p.contact-description {
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  form {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  form .form-left-side,
+  .form-right-side {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* ================= FORM INPUTS ================= */
+  input,
+  textarea,
+  button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  /* ================= COMMUNICATION SECTION ================= */
+  .communication-section {
+    height: auto;
+    padding: 40px 16px;
+  }
+
+  .communication-top-section h3 {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .communication-top-section p {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .communication-bottom-section {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+  }
+
+  .communication-bottom-section .left-section,
+  .communication-bottom-section .right-section {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* ================= LEFT INFO BOXES ================= */
+  .left-section .left-top-section,
+  .left-section .left-bottom-section {
+    padding: 20px;
+    background-position: right 15px top 15px;
+    background-size: 50px;
+  }
+
+  /* ================= RIGHT DETAILS ================= */
+  .right-section .department-detials {
+    padding: 20px;
+    background-position: right 15px top 15px;
+    background-size: 50px;
+  }
+
+  .department-top-section {
+    margin-top: 20px;
+  }
+
+  .department-top-section p.location-details {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  /* ================= MAP SECTION ================= */
+  .map-section {
+    height: auto;
+    padding: 60px 16px;
+  }
+
+  .map-contents h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .map-contents p.map-descriptions {
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
+}
