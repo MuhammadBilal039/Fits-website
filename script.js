@@ -63,3 +63,9 @@ prevBtn.addEventListener("click", () => {
     carouselTrack.style.transform = `translateX(-${index * cardWidth}px)`;
   }
 });
+
+// .left-top-section .email-title {
+//   /* background-image: url("../Images/email.png");
+// background-position: 460px 10px;
+// background-size: 20%; */
+// }
