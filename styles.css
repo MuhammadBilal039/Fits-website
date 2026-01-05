@@ -581,7 +581,8 @@ body {
 }
 
 .social-cards .first-card,
-.social-cards .second-card {
+.social-cards .second-card,
+.social-cards .third-card {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
