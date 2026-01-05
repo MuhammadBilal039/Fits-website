@@ -504,7 +504,7 @@ body {
 }
 
 .back .content h3 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -514,8 +514,8 @@ body {
 }
 
 .back .content p {
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
   line-height: 25px;
   word-spacing: 2px;
   text-align: justify;
@@ -534,9 +534,9 @@ body {
 
 .btn a {
   text-decoration: none;
-  width: 200px;
-  padding: 15px 20px;
-  font-size: 18px;
+  width: 180px;
+  padding: 10px 20px;
+  font-size: 16px;
   background: var(--card-bg-color);
   border: 2px solid var(--btn-bg-color);
   cursor: pointer;
@@ -581,8 +581,7 @@ body {
 }
 
 .social-cards .first-card,
-.social-cards .second-card,
-.social-cards .third-card {
+.social-cards .second-card {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
@@ -1439,6 +1438,27 @@ body {
 
   .mobile-menu {
     display: block;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: -400px; /* hidden */
+    right: 20px;
+    width: 250px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: top 0.4s ease-in-out;
+  }
+
+  .nav-links.active {
+    top: 70px; /* navbar ke niche */
   }
 
   .navbar a.contact-btn {
@@ -1450,6 +1470,11 @@ body {
     height: auto;
     padding-top: 120px;
     padding-bottom: 60px;
+  }
+
+  .hero-content a {
+    padding: 10px 20px;
+    font-size: 14px;
   }
 
   .hero-content h1 {
@@ -1539,6 +1564,45 @@ body {
     height: 420px;
   }
 
+  .card .inner .front-inner-div {
+    color: var(--card-title-color);
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .card .inner .front-inner-div p.title {
+    font-size: 20px;
+  }
+
+  .card .inner .front-inner-div p {
+    font-size: 14px;
+  }
+
+  /* Portfolio Cards Back Side Contents */
+  .back .content h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+
+  .back .content p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 17px;
+    word-spacing: 0px;
+  }
+
+  .back .content p span {
+    font-size: 20px;
+  }
+
+  .btn a {
+    width: 130px;
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+
   /* ================= SERVICES CAROUSEL ================= */
   .services-carousel-top h2 {
     font-size: 28px;
@@ -1615,6 +1679,11 @@ body {
     width: 100%;
   }
 
+  .contact-section-content a {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
   /* ================= FOOTER ================= */
   .footer {
     height: auto;
@@ -1643,35 +1712,6 @@ body {
   .footer-bottom a {
     right: 20px;
     top: 10px;
-  }
-}
-
-/* ===== MOBILE ONLY ===== */
-@media (min-width: 320px) and (max-width: 767px) {
-  .mobile-menu {
-    display: block;
-    font-size: 30px;
-    cursor: pointer;
-    color: #fff;
-  }
-
-  .nav-links {
-    position: absolute;
-    top: -400px; /* hidden */
-    right: 20px;
-    width: 250px;
-    height: 350px;
-    background: rgba(0, 0, 0, 0.9);
-    flex-direction: column;
-    gap: 40px;
-    padding: 20px;
-    border-radius: 10px;
-    transition: top 0.4s ease-in-out;
-  }
-
-  /* SHOW STATE */
-  .nav-links.active {
-    top: 70px; /* navbar ke niche */
   }
 }
 

@@ -401,8 +401,20 @@ p.location-title {
 @media (min-width: 768px) and (max-width: 1199px) {
   /* ================= CONTACT HERO ================= */
   .contact-hero-section {
-    padding: 0 40px;
+    padding: 100px 40px;
     height: auto;
+  }
+
+  .contact-section-content h1 {
+    font-size: 28px;
+    width: 80%;
+    margin: 0px;
+  }
+
+  .contact-section-content p {
+    font-size: 16px;
+    width: 80%;
+    margin: 0px;
   }
 
   /* ================= CONTACT FORM ================= */
@@ -507,8 +519,20 @@ p.location-title {
 @media (max-width: 767px) {
   /* ================= CONTACT HERO ================= */
   .contact-hero-section {
-    padding: 0 16px;
+    padding: 100px 40px;
     height: auto;
+  }
+
+  .contact-section-content h1 {
+    font-size: 23px;
+    width: 80%;
+    margin: 0px;
+  }
+
+  .contact-section-content p {
+    font-size: 14px;
+    width: 80%;
+    margin: 0px;
   }
 
   /* ================= CONTACT FORM ================= */
