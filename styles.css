@@ -390,13 +390,13 @@ body {
 }
 
 .top p {
-  font-size: 80px;
+  font-size: 60px;
   text-transform: uppercase;
   text-align: center;
 }
 
 .top p.portfolio {
-  font-weight: 900;
+  font-weight: 700;
   color: var(--heading-color);
 }
 
