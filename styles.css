@@ -896,11 +896,11 @@ body {
 }
 
 .item {
-  background: #fff;
-  width: 170px;
-  height: 100px;
+  /* background: #fff; */
+  /* width: 170px;
+  height: 100px; */
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   font-size: 20px;
   padding: 20px;
 }
@@ -912,8 +912,9 @@ body {
 }
 
 .track .item img {
-  width: 80%;
+  width: 90px;
   object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 /* LEFT TO RIGHT */
