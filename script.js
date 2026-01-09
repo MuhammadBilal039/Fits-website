@@ -69,3 +69,54 @@ prevBtn.addEventListener("click", () => {
 // background-position: 460px 10px;
 // background-size: 20%; */
 // }
+
+const texts = [
+  "Technology-Led Innovation",
+  "Creative Excellence",
+  "Digital Transformation",
+];
+
+const textElement = document.getElementById("text");
+
+let textIndex = 0;
+let charIndex = 0;
+
+const typingSpeed = 100;
+const stayTime = 1200;
+
+function typeText() {
+  if (charIndex < texts[textIndex].length) {
+    textElement.textContent += texts[textIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(typeText, typingSpeed);
+  } else {
+    // text complete hone ke baad upar slide
+    setTimeout(slideUp, stayTime);
+  }
+}
+
+function slideUp() {
+  textElement.classList.add("slide-up");
+
+  setTimeout(() => {
+    // reset
+    textElement.classList.remove("slide-up");
+    textElement.textContent = "";
+    charIndex = 0;
+    textIndex = (textIndex + 1) % texts.length;
+
+    typeText();
+  }, 1000);
+}
+
+typeText();
+
+function myMap() {
+  var mapProp = {
+    center: new google.maps.LatLng(51.508742, -0.12085),
+    zoom: 5,
+  };
+  var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+
+myMap();

@@ -33,7 +33,7 @@
           <a href="../index.html#services">Services</a>
         </li>
 
-        <li><a href="../index.html#portfolio">Products & Portfolio</a></li>
+        <li><a href="../index.html#portfolio">Portfolio</a></li>
       </ul>
 
       <a href="./contact.html" class="contact-btn">Contact</a>
@@ -140,19 +140,17 @@
         <div class="right-section">
           <div class="department-detials">
             <div class="department-top-section">
-              <p class="location-title">Office Address</p>
+              <p class="location-title">Head Office Address</p>
               <p class="location-details">
                 Gulberg Greens, Islamabad, Pakistan
               </p>
             </div>
-            <!-- <hr /> -->
-            <!-- <div class="department-center-section">
-              <p class="location-title">Ideation LLC</p>
-              <p>1992 Lewis Turner Blvd</p>
-              <p>Suite 1067 #406</p>
-              <p>Fort Walton Beach, FL 32547</p>
+            <hr />
+            <div class="department-center-section">
+              <p class="location-title">Regional Office</p>
+              <p>KML Building - Al Meydan Street - Al Quoz 1 - Dubai</p>
             </div>
-            <hr /> -->
+            <!-- <hr /> -->
             <!-- <div class="department-bottom-section">
               <p class="location-title">Regional Office</p>
               <div class="locations">
@@ -168,7 +166,7 @@
       </div>
     </section>
 
-    <!-- <section class="map-section">
+    <section class="map-section">
       <div class="map-contents">
         <p>Let's meet,</p>
         <h4>Find us here!</h4>
@@ -178,7 +176,18 @@
         </p>
         <a href="#">Get Directions</a>
       </div>
-    </section> -->
+      <div id="googleMap" class="map-direction">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26582.934903755504!2d73.14608101668506!3d33.608758734838176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfec0851d92db3%3A0x66f28b1327836ee2!2sGulberg%20Greens%20Islamabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1767964462405!5m2!1sen!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
 
     <section class="footer">
       <div class="footer-top">
@@ -219,11 +228,12 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>Fits, All Rights Reserved</p>
+        <!-- <p>Fits, All Rights Reserved</p> -->
         <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
       </div>
     </section>
 
     <script src="../script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
   </body>
 </html>

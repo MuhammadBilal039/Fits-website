@@ -283,9 +283,11 @@ p.country-title {
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
   padding: 10px 20px;
   width: 100%;
+  min-height: 47%;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 15px;
   background-image: url("../Images/location.png");
   background-position: 480px 30px;
@@ -316,10 +318,10 @@ p.location-title {
 .department-detials hr {
   width: 180px;
 }
-
+/* 
 .department-top-section {
-  padding-block: 30px;
-}
+  padding-block: 20px;
+} */
 
 .department-top-section p.location-details {
   width: 202px;
@@ -349,17 +351,18 @@ p.location-title {
 .map-section {
   width: 100%;
   height: 100vh;
-  background-image: url("../Images/map.png");
+  /* background-image: url("../Images/map.png");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   padding: 0px 100px;
   display: flex;
   align-items: center;
 }
 
 .map-section .map-contents {
-  width: 100%;
+  width: 50%;
+  height: 70%;
   color: var(--text-color);
 }
 
@@ -396,6 +399,17 @@ p.location-title {
     color: var(--text-color);
     transition: all 0.5s ease-in-out;
   }
+}
+
+.map-direction {
+  width: 50%;
+  height: 70%;
+}
+
+.map-direction iframe {
+  width: 100%;
+  height: 100%;
+  /* border-radius: 10px; */
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -631,6 +645,8 @@ p.location-title {
   .map-section {
     height: auto;
     padding: 60px 16px;
+    display: flex;
+    flex-direction: column;
   }
 
   .map-contents h4 {
