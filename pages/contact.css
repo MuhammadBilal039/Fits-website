@@ -59,7 +59,8 @@
 }
 
 .top-contact-section p.contact-description {
-  width: 343px;
+  width: 380px;
+  font-size: 18px;
   line-height: 25px;
   word-spacing: 2px;
 }
