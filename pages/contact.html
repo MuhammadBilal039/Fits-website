@@ -15,6 +15,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "yYIOgyPsGym5cjQyB",
+        });
+      })();
+    </script>
   </head>
   <body>
     <!-- ================= NAVBAR ================= -->
@@ -65,20 +76,31 @@
         </p>
       </div>
       <div class="bottom-contact-section">
-        <form>
+        <form action="https://formspree.io/f/mreegrnp" method="POST">
           <div class="form-left-side">
             <div class="form-input">
               <label for="name">Name</label>
-              <input type="text" name="name" placeholder="Your Name" />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+              />
             </div>
             <div class="form-input">
               <label for="email">Email</label>
-              <input type="email" name="email" placeholder="Your Email" />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+              />
             </div>
             <div class="form-input">
               <label for="subject">Subject/Query</label>
               <input
                 type="text"
+                id="subject"
                 name="subject"
                 placeholder="What do you got in your mind?"
               />
@@ -88,12 +110,14 @@
             <div class="form-input">
               <label for="message">Message</label>
               <textarea
-                name=""
-                id=""
+                name="message"
+                id="message"
                 rows="10"
                 placeholder="Your Message"
               ></textarea>
-              <button>Send Your Message</button>
+              <button type="submit" onclick="sendMail()">
+                Send Your Message
+              </button>
             </div>
           </div>
         </form>
