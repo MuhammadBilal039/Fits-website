@@ -41,8 +41,11 @@ menuBtn.addEventListener("click", () => {
 
 // Carousel Card Slider
 const carouselTrack = document.getElementById("carouselTrack");
-const nextBtn = document.getElementById("nextBtn");
-const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextButton");
+const prevBtn = document.getElementById("prevButton");
+
+console.log(nextBtn);
+console.log(prevBtn);
 
 const cardWidth = 344; // 320 + 24 gap
 const totalCards = document.querySelectorAll(".service-card").length;
