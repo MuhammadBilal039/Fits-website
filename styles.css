@@ -712,7 +712,9 @@ body {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
 }
 
 .service-card:hover {
@@ -728,7 +730,9 @@ body {
 .card-hover {
   position: absolute;
   inset: 0;
-  transition: opacity 0.4s ease, transform 0.4s ease;
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
 }
 
 /* FRONT */
@@ -906,8 +910,8 @@ body {
 
 .item {
   /* background: #fff; */
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
   font-size: 20px;
